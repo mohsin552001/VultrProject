@@ -1412,6 +1412,10 @@ body {
   .container .topheader {
     display: none;
   }
+  .container .InfrastructureSection {
+    height: 100%;
+    width: 100%;
+  }
   .container .InfrastructureSection .bottomheader .logosvg {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1448,6 +1452,67 @@ body {
     font-size: 17px;
     line-height: 28px;
     text-align: center;
+  }
+  .container .InfrastructureSection .Infrastructure .inputSection {
+    width: 90%;
+    height: 400px;
+    border: 1px solid;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    background-color: #fff;
+    border-radius: 5px;
+  }
+  .container .InfrastructureSection .Infrastructure .inputSection input {
+    width: 80% !important;
+    border: 1px solid !important;
+    color: #d0d1d6;
+  }
+  .container .InfrastructureSection .Infrastructure .inputSection button {
+    width: 80% !important;
+  }
+  .container .kindsSection .kinds {
+    top: 300px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .container .kindsSection .kinds h1 {
+    margin-top: 50px;
+    color: #142149;
+  }
+  .container .kindsSection .kinds .randomthings {
+    display: none;
+  }
+  .container .kindsSection .kinds .randomresponsive {
+    display: block;
+    width: 100%;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    text-align: center;
+  }
+  .container .kindsSection .globally {
+    top: 200px;
+    width: 100%;
+    background-color: #fff;
+    text-align: center;
+  }
+  .container .kindsSection .globally h1 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+  .container .kindsSection .globally p {
+    font-size: 17px;
+    line-height: 28px;
+    margin-top: 0px;
   }
 }
 /*# sourceMappingURL=index.css.map */
